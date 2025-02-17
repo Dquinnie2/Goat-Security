@@ -1,7 +1,7 @@
 version: 0.1
 env:
     Secrets-Manager:
-      TOKEN:SonarCloud2:tokenForSonar
+      TOKEN: SonarCloud2:tokenForSonar
         SONAR_TOKEN: Goat-Security
   variables:
     JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
