@@ -9,4 +9,4 @@ env:
 phases:
   build:
     commands:
-      - mvn verify sonar:sonar -Dsonar.projectKey=Goat-Security -Dsonar.organization=Goat-Security -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$217a15eed0bc2ce8bfaca6a683f92e9ec023be1e
+      - mvn verify sonar:sonar -Dsonar.projectKey=Goat-Security -Dsonar.organization=Goat-Security -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$dca5e6854f2738a744a046eaff49b47e4ef3d1be
