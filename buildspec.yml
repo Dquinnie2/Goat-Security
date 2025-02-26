@@ -2,10 +2,6 @@ version: 0.1
 env:
   secrets-manager:
     TOKEN: SonarCloud3:tokenForSonar
-variables:
-    JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
-    MAVEN_HOME: "/usr/share/maven"
-    MAVEN_CONFIG: ".m2"
 phases:
   build:
     commands:
